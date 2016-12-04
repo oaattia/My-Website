@@ -16,11 +16,6 @@ rm -R _site/
 # Send latest to production
 rsync -avz ./ --exclude 'bin/deploy.sh' '.git/' $REMOTE:$REMOTE_APP
 
-test:
-  override:
-    - echo "No Tests"
-
-
 echo "Deployed Successfully!"
 
 exit 0
