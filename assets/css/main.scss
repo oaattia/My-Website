@@ -8,7 +8,27 @@
 	display:inline;
 }
 
+
+h1, h2, h3,
+h4, h5, h6 {
+    -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    color: #F05F40 !important;
+    line-height: 1.15em;
+    margin: 0 0 0.4em 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #F05F40;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"
 ;
+
+
