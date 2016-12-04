@@ -1,12 +1,10 @@
-# Kasper
-
-> This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
+This is part of my [website](https://oaattia.com) implementation as static page using Jekyll, 
 Feel free to fork, change, modify and re-use it.
 
 ## Installation
 
-    git clone https://github.com/rosario/kasper.git
-    cd kasper
+    git clone https://github.com/oaattia/My-Website.git website
+    cd website
     gem install jekyll
     gem install pygments.rb
 
@@ -20,29 +18,20 @@ Build page into `_site` folder
 
     jekyll build
 
-## Kasper theme includes
 
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
+I'm not a UI Developer so i wanted to start the website with minimal effort, so i choosed the following so i can start fast : 
+* blog, about me pages  [kasper](https://github.com/rosario/kasper) 
+* Landing page [bootstrap creative](https://startbootstrap.com/template-overviews/creative/) 
 
 ## Screenshots
-
+## TODO BUT NOT NOW 
 ![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
 ![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
 
 
-## Thanks
-
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
-
 ## Copyright & License
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+Copyright (C) Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
