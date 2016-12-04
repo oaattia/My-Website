@@ -4,10 +4,10 @@ machine:
 
 dependencies:
   pre:
-    - ./bin/setup
+    - sh bin/setup.sh
 
 deployment:
   production:
     branch: master
     commands:
-      - ./bin/deploy
+      - sh bin/deploy.sh
