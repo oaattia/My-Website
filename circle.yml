@@ -1,0 +1,13 @@
+machine:
+  ruby:
+    version: 2.2.3
+
+dependencies:
+  pre:
+    - ./bin/setup
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./bin/deploy
