@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding SOLID"
+title:  "Design Patterns"
 ---
 
 
