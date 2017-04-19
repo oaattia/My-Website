@@ -1,19 +1,22 @@
 ---
 layout: post
-title:  "Design patterns"
+title:  "Understanding SOLID"
 ---
 
-After years developers wanted to write code that don't break or fail upon change or modify, code that easily modified and easily maintainable .
 
-So design patterns was the solution for that, so what is design patterns ?
+## What is ORM ? 
 
->in software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations.
+ORM is acronym to object relation mapping, and it's define as a layer between the application and database.
 
-#### Design patterns categories :
+ORM let you manage your database with an object oriented way instead of writing sql statment in some cases. 
 
-- Creational Patterns
-- Structural Patterns
-- Behavioral Patterns
+## What is the most important ORMs right now ? 
 
-in the next post i will write more in details about the design patterns itself . and how to implement it .
+- Active records ( Like Eloquent in Laravel )
+- Data Mapper ( Like Doctrine )
 
+## What is the difference between Active Records and Data mapper ? 
+
+Data mapper is map every field in the table to specific attribute in the entity, usually a private entity and this class doesn't directly access the the database but there is a layer before that to get specific data, Data mapper seperate the model itself from the persistance layer so that the model itself not knowing anything about the domain. 
+
+Active record is taking different approach to access the database directory from the class itself, without any layer in between and that would be easier than Data Mapper. 
