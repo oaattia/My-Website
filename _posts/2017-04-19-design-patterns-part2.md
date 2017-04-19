@@ -3,6 +3,11 @@ layout: post
 title:  "Design patterns ( part 2 )"
 ---
 
+Design patterns is design created to help us to write maintanable code that can be easily modified and can be extends in the future . 
+
+There is some categorization for the design patterns done in this [article](http://oaattia.com/2017/01/23/design-patterns.html).
+
+
 ## Singleton Design pattern
 
 Singleton is the one of the most famous design patterns, despite of you like it or not.
@@ -15,6 +20,9 @@ We can use it to do some tasks like writing some logs to file or in Wordpress cl
 Factory design pattern that we create a class that create other instance from other class .
 
 ```php
+
+<?php 
+
 interface Human
 {
   public function talk();
