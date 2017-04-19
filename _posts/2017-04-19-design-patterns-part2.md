@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Design patterns ( part 2 )"
+title:  "Design patterns - part (2)"
 ---
 
-Design patterns is design created to help us to write maintanable code that can be easily modified and can be extends in the future . 
+Design patterns is design created to help us to write maintanable code that can be easily modified and can be extends in the future .
 
 There is some categorization for the design patterns done in this [article](http://oaattia.com/2017/01/23/design-patterns.html).
 
@@ -21,7 +21,7 @@ Factory design pattern that we create a class that create other instance from ot
 
 ```php
 
-<?php 
+<?php
 
 interface Human
 {
@@ -41,7 +41,7 @@ class Boy extends Human {
 }
 
 class CreateHumanFactory {
-  public function make(Human $human)  
+  public function make(Human $human)
   {
     return $human->talk . ' and ' . $human->walk;
   }

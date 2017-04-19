@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding ORM Types"
+title:  "Design Patterns"
 ---
 
 After years developers wanted to write code that don't break or fail upon change or modify, code that easily modified and easily maintainable .
